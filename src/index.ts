@@ -13,7 +13,7 @@ class Tasks<T extends unknown[] = []> {
    *
    * To add many single `Promise`s to the task list, use `add()` as many times
    * as you wish. `add()` with arbitrary number of arguments is not supported
-   * by design for the sake of code style.
+   * by design for prettier code.
    *
    * @param p `Promise` to be run in concurrency.
    */
@@ -39,7 +39,7 @@ class Tasks<T extends unknown[] = []> {
   }
 
   /**
-   * Same as `Promise.allSettled()`, run all `Promise`(s) even if one of them rejected.
+   * Same as `Promise.allSettled()`, finish all `Promise`(s) even if any of them are rejected.
    *
    * @returns Array of each `Promise`'s state and resolve value.
    */

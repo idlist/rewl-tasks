@@ -31,7 +31,7 @@ await Promise.all(arr
 )
 ```
 
-...but it is (*subjectively*) **ugly**. Using an empty helper array may make it less ugly:
+...but it is (*subjectively*) **ugly**. Using an empty helper array may make it less ugly (but is still *ugly*):
 
 ```js
 await Promise.all([]
@@ -68,9 +68,7 @@ Initialize a new task runner.
 
 Add a `Promise` or an array of `Promise`s to the task list.
 
-To add many single `Promise`s to the task list, use `add()` as many times
-as you wish. `add()` with arbitrary number of arguments is not supported
-by design for the sake of code style.
+To add many single `Promise`s to the task list, use `add()` as many times as you wish. `add()` with arbitrary number of arguments is not supported by design for prettier code.
 
 ### tasks.run()
 
@@ -82,7 +80,7 @@ Same as `Promise.all()`, run all `Promise`(s),
 
 - Returns: Array of each `Promise`'s state and resolve value.
 
-Same as `Promise.allSettled()`, run all `Promise`(s) even if one of them rejected.
+Same as `Promise.allSettled()`, finish all `Promise`(s) even if any of them are rejected.
 
 ### tasks.race()
 
@@ -99,7 +97,7 @@ This module comes from a discussion of "How to write prettier `Promise.all`" wit
 - [Anillc](https://github.com/Anillc) anticipated in the discussion and help give typings to this module.
 - [undefined](https://github.com/undefined-moe) gave the code with spread syntax (which is also what I used in my code before).
 - [YiJie](https://github.com/NWYLZW) gave the code using `concat`.
-- [Shigma](https://github.com/shigma) provided brilliant TypeScript typings to this module.
+- [Shigma](https://github.com/shigma) provided brilliant TypeScript typings to this module (which itself is quite tricky as we spent nearly a whole night to find out how to give it types before he showed us the answer with ease).
 
 ## License
 
