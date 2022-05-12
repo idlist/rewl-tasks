@@ -1,6 +1,11 @@
 # @rewl/tasks
 
+[![npm](https://img.shields.io/npm/v/@rewl/tasks?style=flat-square)](https://www.npmjs.com/package/@rewl/tasks)
+[![npm-download](https://img.shields.io/npm/dw/@rewl/tasks?style=flat-square)](https://www.npmjs.com/package/@rewl/tasks)
+
 A simple wrapper for concurrent Promise methods, no additional functionality.
+
+If you are looking for **real** `Promise` runner and manager, please consider other packages like [Bottleneck](https://github.com/SGrondin/bottleneck).
 
 ## Wha..t's this?
 
@@ -49,7 +54,7 @@ await new Tasks()
   .run()
 ```
 
-It **does nothing more**, but it **looks prettier**, and that's what we're achieving.
+It **does nothing more**, but it **looks prettier**, and that's what we (or at least *I*) want to achieve.
 
 ## Usage
 
@@ -83,6 +88,19 @@ Same as `Promise.allSettled()`, run all `Promise`(s) even if one of them rejecte
 
 - Returns: The firstly resolved `Promise`'s resolve value.
 
-Same as `Promise.race()`, run all `Promise`(s) and return the firstly resolved value.
+Same as `Promise.race()`, run all `Promise`(s) and return the firstly resolved or rejected value.
 
 You may sometimes want to narrow the type of return value maunally.
+
+## Special thanks
+
+This module comes from a discussion of "How to write prettier `Promise.all`" with following guys:
+
+- [Anillc](https://github.com/Anillc) anticipated in the discussion and help give typings to this module.
+- [undefined](https://github.com/undefined-moe) gave the code with spread syntax (which is also what I used in my code before).
+- [YiJie](https://github.com/NWYLZW) gave the code using `concat`.
+- [Shigma](https://github.com/shigma) provided brilliant TypeScript typings to this module.
+
+## License
+
+MIT

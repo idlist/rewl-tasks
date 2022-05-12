@@ -48,10 +48,10 @@ class Tasks<T extends unknown[] = []> {
   }
 
   /**
-   * Same as `Promise.race()`, run all `Promise`(s) and return the firstly resolved value.
+   * Same as `Promise.race()`, run all `Promise`(s) and return the firstly resolved or rejected value.
    * You may sometimes want to narrow the type of return value maunally.
    *
-   * @returns The firstly resolved `Promise`'s resolve value.
+   * @returns The firstly resolved or rejected `Promise`'s value.
    */
   race() {
     return Promise.race(this.list) as Promise<T[number]>
