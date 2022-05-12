@@ -49,7 +49,7 @@ class Tasks<T extends unknown[] = []> {
 
   /**
    * Same as `Promise.race()`, run all `Promise`(s) and return the firstly resolved value.
-   * You may sometimes want to narrow the return value maunally.
+   * You may sometimes want to narrow the type of return value maunally.
    *
    * @returns The firstly resolved `Promise`'s resolve value.
    */

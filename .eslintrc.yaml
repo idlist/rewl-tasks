@@ -4,6 +4,9 @@ env:
   es2021: true
   node: true
 
+ignorePatterns:
+  - lib
+
 parser: "@typescript-eslint/parser"
 
 parserOptions:
@@ -15,7 +18,7 @@ settings:
 
 plugins:
   - ava
-  - "@typescript-eslint"
+  - '@typescript-eslint'
 
 extends:
   - eslint:recommended
@@ -25,7 +28,7 @@ extends:
 rules:
   # Turn off rules
   '@typescript-eslint/no-empty': off
-  '@typescript-eslint/no-var-require': off
+  '@typescript-eslint/no-var-requires': off
 
   # Set some rules from error to warining
   '@typescript-eslint/no-empty-function': warn
