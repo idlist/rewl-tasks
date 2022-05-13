@@ -5,9 +5,14 @@
 
 A simple wrapper for concurrent Promise methods, no additional functionality.
 
+## Features
+
+- Fully typed, tested and documented. (*probably*)
+- Make your code cleaner. (*subjectively*)
+
 If you are looking for **real** `Promise` runner and manager, please consider other packages like [Bottleneck](https://github.com/SGrondin/bottleneck).
 
-## Wha..t's this?
+## Wait, wha..t's this?
 
 Although it differs subjectively from people to people, codes often get ugly when using concurrent `Promise` methods (namely `all`, `allSettled` and `race`).
 
@@ -98,6 +103,10 @@ This module comes from a discussion of "How to write prettier `Promise.all`" wit
 - [undefined](https://github.com/undefined-moe) gave the code with spread syntax (which is also what I used in my code before).
 - [YiJie](https://github.com/NWYLZW) gave the code using `concat`.
 - [Shigma](https://github.com/shigma) provided brilliant TypeScript typings to this module (which itself is quite tricky as we spent nearly a whole night to find out how to give it types before he showed us the answer with ease).
+
+## About `@rewl`
+
+`@rewl` (stands for "`re`inventing the `w`hee`l`") is a personal package scope of me and what I do under the scope is quite literal. I believe that there should be other existing module(s) that do (or do far more better than) what I'm coding, but for one reason or another, I decided to reinvent the wheel again. Although most of time it's because I want to write a version of mine or I'm... just having fun. \_(:з」∠)\_
 
 ## License
 

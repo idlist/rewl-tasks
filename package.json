@@ -1,6 +1,6 @@
 {
   "name": "@rewl/tasks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple wrapper for concurrent Promise methods, no additional functionality.",
   "author": "i'DLisT (https://idl.ist) <me@idl.ist>",
   "license": "MIT",
