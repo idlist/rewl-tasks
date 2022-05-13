@@ -106,7 +106,7 @@ This module comes from a discussion of "How to write prettier `Promise.all`" wit
 
 ## About `@rewl`
 
-`@rewl` (stands for "`re`inventing the `w`hee`l`") is a personal package scope of me and what I do under the scope is quite literal. I believe that there should be other existing module(s) that do (or do far more better than) what I'm coding, but for one reason or another, I decided to reinvent the wheel again. Although most of time it's because I want to write a version of mine or I'm... just having fun. \_(:з」∠)\_
+`@rewl` (stands for "`re`inventing the `w`hee`l`") is a personal package scope of me and what I do under the scope is quite literal. I believe that there should be other existing module(s) that do (and do far better than) what I'm coding, but for one reason or another, I decided to reinvent the wheel again, and `@rewl` is the collection of those "wheels".
 
 ## License
 
