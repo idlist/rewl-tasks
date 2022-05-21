@@ -12,10 +12,6 @@ parser: "@typescript-eslint/parser"
 parserOptions:
   ecmaVersion: latest
 
-settings:
-  import/parsers:
-    '@typescript-eslint/parser': ['.ts']
-
 plugins:
   - ava
   - '@typescript-eslint'
