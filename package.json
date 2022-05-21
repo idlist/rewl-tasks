@@ -1,6 +1,6 @@
 {
   "name": "@rewl/tasks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple wrapper for concurrent Promise methods, no additional functionality.",
   "author": "i'DLisT (https://idl.ist) <me@idl.ist>",
   "license": "MIT",
@@ -8,13 +8,13 @@
     "promise",
     "wrapper"
   ],
-  "homepage": "https://github.com/idlist/rewl-tasks#readme",
+  "homepage": "https://github.com/rewljs/tasks#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idlist/rewl-tasks.git"
+    "url": "git+https://github.com/rewljs/tasks.git"
   },
   "bugs": {
-    "url": "https://github.com/idlist/rewl-tasks/issues"
+    "url": "https://github.com/rewljs/tasks/issues"
   },
   "files": [
     "lib"

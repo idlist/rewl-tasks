@@ -106,7 +106,9 @@ This module comes from a discussion of "How to write prettier `Promise.all`" wit
 
 ## About `@rewl`
 
-`@rewl` (stands for "`re`inventing the `w`hee`l`") is a personal package scope of me and what I do under the scope is quite literal. I believe that there should be other existing module(s) that do (and do far better than) what I'm coding, but for one reason or another, I decided to reinvent the wheel again, and `@rewl` is the collection of those "wheels".
+[`@rewl`](https://github.com/rewljs) ("`re`inventing the `w`hee`l`") is a personal `npm` scope of [idlist](https://github.com/idlist).
+
+What it does is literal. I believe that there should be other existing module(s) or package(s) that has done (and most of the time do far better than) what I'm doing, but for one reason or another, I decided to reinvent the wheel again. `@rewl` is the collection of those "wheels".
 
 ## License
 
